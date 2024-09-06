@@ -1,31 +1,55 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- tag item para adicionar icon na barra do navegador --> <!-- shift + alt + a comentario -->
-     <link rel="shortcut icon" href="./assets/inclusion.png" type="image/x-icon">
-     <!-- tag para escrever o nome do desenvolvedor -->
-     <meta name="author" content="Johnatan">
+    <link rel="shortcut icon" href="./assets/inclusion.png" type="image/x-icon">
+    <!-- tag para escrever o nome do desenvolvedor -->
+    <meta name="author" content="Johnatan">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Minha Empresa</title>
 </head>
+
 <body>
-    <ul><!-- shift+ alt copia  -->
-        <li>
-            <a href="./index.html">Home</a></li>
-        <li>
-            <a href="./pages/historia.html">Historia</a>
-        </li>
-        <li>
-            <a href="./pages/contato.html">Contato</a>
-        </li>
-    </ul>
-    <h1>Minha Empresa</h1>
+    <div class="cabecalho">
+       <h1>Logo</h1>
+        <ul><!-- shift+ alt copia  -->
+            <li>
+                <a href="./index.html">Home</a>
+            </li>
+            <li>
+                <a href="./pages/historia.html">Historia</a>
+            </li>
+            <li>
+                <a href="./pages/contato.html">Contato</a>
+            </li>
+        </ul>
+    </div>
+    <h1 style="color: rgb(175, 58, 28);text-align: center;">Minha Empresa</h1>
     <!-- tag img para imagem -->
     <img src="./assets/img/empresa.png" alt="imagem ilustrativa de uma reunião">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, harum fugiat porro tenetur eligendi vel adipisci rerum voluptate, consequatur aut distinctio assumenda totam eum. Illum quae unde neque voluptates esse nihil obcaecati quam ut hic reprehenderit. Praesentium quidem minus corrupti, sapiente soluta totam. Sequi unde totam illum harum odit officia quas minima dignissimos vel ex labore, at facilis laboriosam doloremque, omnis ducimus iste possimus itaque ut corrupti. Rerum blanditiis aperiam quas eius? Possimus, hic magni? Eveniet aliquam accusamus voluptate recusandae suscipit ea ut labore tempore non, repellat doloremque dolorum corrupti. Quod pariatur ut, doloremque quo assumenda quae tenetur fuga quis.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, harum fugiat porro tenetur eligendi vel
+        adipisci rerum voluptate, consequatur aut distinctio assumenda totam eum. Illum quae unde neque voluptates esse
+        nihil obcaecati quam ut hic reprehenderit. Praesentium quidem minus corrupti, sapiente soluta totam. Sequi unde
+        totam illum harum odit officia quas minima dignissimos vel ex labore, at facilis laboriosam doloremque, omnis
+        ducimus iste possimus itaque ut corrupti. Rerum blanditiis aperiam quas eius? Possimus, hic magni? Eveniet
+        aliquam accusamus voluptate recusandae suscipit ea ut labore tempore non, repellat doloremque dolorum corrupti.
+        Quod pariatur ut, doloremque quo assumenda quae tenetur fuga quis.</p>
     <!-- tag button para criar um botão -->
     <button>conheça nossa historia</button>
+
+    <h2>inscreva-se na nossa newslatter </h2>
+    <p>tenha as ultimas noticias sobre a nossa empresa - todas as segunda-feira.</p>
+    <form action="">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" placeholder="digite seu nome completo" required>
+        <label for="email"> E-mail</label>
+        <input type="email" id="email" placeholder="digite seu e-mail" required>
+        <input type="submit" value="inscreva-se">
+    </form>
     <p>Desenvolvido Por <strong>Johnatan</strong> &copy; todos direitos resevado</p>
 </body>
+
 </html>

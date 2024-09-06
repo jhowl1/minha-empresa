@@ -1,0 +1,27 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 30px;
+}
+.cabecalho ul {
+    display:flex;/* deixa o filho um do lado do outro */
+    gap: 20px 60px;
+    
+}
+.cabecalho h1{
+    display: flex;
+    gap: 20px;
+
+}
+.cabecalho ul li a{
+    color: #fff;
+}
