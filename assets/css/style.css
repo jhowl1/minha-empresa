@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
@@ -6,22 +6,34 @@
     list-style: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.cabecalho{
+
+.cabecalho {
     display: flex;
     justify-content: space-between;
     background-color: #333;
-    padding: 30px;
+    padding: 30px 60px;
+    align-items: center;
 }
+
 .cabecalho ul {
-    display:flex;/* deixa o filho um do lado do outro */
-    gap: 20px 60px;
-    
+    display: flex;
+    /* deixa o filho um do lado do outro */
+    gap: 30px 60px;
 }
-.cabecalho h1{
+
+.cabecalho h1 {
     display: flex;
     gap: 20px;
+    color: #fff;
+}
+
+.cabecalho ul li a {
+    color: #fff;
+}
+.men{
+    padding: 30px 60px;
 
 }
-.cabecalho ul li a{
-    color: #fff;
+.paidoslados{
+    display: flex;
 }
