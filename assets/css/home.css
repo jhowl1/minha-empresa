@@ -1,0 +1,56 @@
+.paidoslados {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+
+.paidoslados div {
+    width: 50%;
+}
+
+.paidoslados .ladodireito img {
+    width: 100%;
+}
+
+.paidoslados .ladoesquerdo p {
+    text-align: justify;
+}
+
+.paidoslados .ladoesquerdo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.paidoslados .ladoesquerdo button {
+    width: 200px;
+    border: 2px black solid;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    box-shadow: black 3px 3px 0px;
+    cursor: pointer;
+}
+
+.paidoslados .ladoesquerdo button:hover {
+    background: #444;
+}
+
+.paidoslados .ladoesquerdo h1,
+.newslatter h2 {
+    text-transform: uppercase;
+    /*  TUDO MAIUSCULO */
+}
+
+.newslatter {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.newslatter .filho {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
