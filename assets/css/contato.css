@@ -1,0 +1,32 @@
+.contact{
+     gap: 20px;
+    padding-bottom: 30px;
+}
+.icons{
+    display: flex;
+   gap: 20px;
+}
+.icons p{
+    text-align: justify;
+}
+.mapa{
+    justify-content: center;
+    display: flex;
+}
+@media screen and (max-width: 780px){
+    .icons{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 733px) {
+    .contact{
+        flex-direction: column-reverse;
+    }
+    .contact div {
+        width: 100%;
+        gap: 6px;
+    }
+
+}

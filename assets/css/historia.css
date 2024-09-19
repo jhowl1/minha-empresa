@@ -1,0 +1,47 @@
+body{
+    background: linear-gradient(#e66465, #5b1caf);
+}
+.historia {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+.historia div {
+    width: 50%;
+}
+
+.historia .lado-direito img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.historia .lado-esquerdo p {
+    text-align: justify;
+}
+.historia .lado-esquerdo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.valores details summary {
+    text-transform: uppercase;
+    cursor: pointer;
+}
+@media screen and (max-width: 780px){
+    .valores{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 733px) {
+    .historia{
+        flex-direction: column-reverse;
+    }
+    .historia div {
+        width: 100%;
+        gap: 6px;
+    }
+
+}
