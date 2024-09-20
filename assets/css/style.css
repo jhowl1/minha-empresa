@@ -21,13 +21,19 @@
     gap: 20px;
 }
 
+.cabecalho h1 {
+    animation: movimentar 3s
+}
+
 .cabecalho ul li a {
     color: #fff;
 }
-.cabecalho ul :hover{
+
+.cabecalho ul :hover {
     background: blue;
 }
-.cabecalho .menu{
+
+.cabecalho .menu {
     display: none;
 }
 
@@ -57,19 +63,39 @@
     padding: 15px;
     text-align: center;
 }
+
 @media screen and (max-width: 500px) {
-    .cabecalho nav{
+    .cabecalho nav {
         display: none;
     }
-    .cabecalho .menu{
-        display:flex ;
+
+    .cabecalho .menu {
+        display: flex;
     }
 }
+
 @media screen and (max-width: 650px) {
     .main {
         padding: 10px;
     }
 }
-body{
-    background: linear-gradient(#e66465, #5b1caf);
+
+body {
+    background: linear-gradient(#5f97cc, #08bebe);
 }
+
+.select {
+    background-color: #e66465;
+
+
+}
+
+    @keyframes movimentar {
+    0%{
+        transform: translate(-300px);
+    }
+    100%{
+        transform: translate(0);
+
+    }
+    }
